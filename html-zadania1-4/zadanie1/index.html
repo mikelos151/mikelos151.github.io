@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularze</title>
+</head>
+
+<body>
+
+    <form action="https://formspree.io/f/xyyoyqwz" method="POST">
+
+        <label>Imię:<input type="text" name="firstname"></label> <br>
+        <label>Nazwisko:<input type="text" name="lastname"></label> <br>
+        <label>email:<input type="email" name="email"></label> <br>
+        <label>Telefon:<input type="tel" name="phone"></label> <br>
+
+        <select name="city">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa" selected>Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select> <br>
+
+        
+        <label><input type="radio" name="choise">Man</label><br>
+        <label><input type="radio" name="choise">Woman</label> <br>
+        
+        <label><input type="checkbox" name="agreement">Wyrażam zgodę na przetwarzanie danych</label><br>
+
+
+        <textarea name="message"></textarea> <br>
+
+        <input type="submit" value="Wyślij formularz">
+    </form>
+
+</body>
+
+</html>
